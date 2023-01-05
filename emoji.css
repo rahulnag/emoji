@@ -1,0 +1,72 @@
+.emoji{font-family:segoe ui emoji;font-size:"3.5em"}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: yellow;
+  color: red;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50px;
+}
+
+#note {
+	font-family: Aclonica;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+a {
+	text-decoration: none;
+	margin-right: 10px;
+	color: #2c3e50;
+	font-family: Aclonica;
+	transition: transform .2s;
+}
+a:hover {
+	background-color: yellow;
+	transform: scale(1.5);
+}
+
+h1{
+ font-family: Averia Libre;	
+}
+h3 {
+	font-family: Averia Libre;
+	margin-left: 15px;
+	font-size: 2em;
+	color: #2c3e50;
+	margin-top: 0px;
+}
+
+#myList {
+	background-color:#ecf0f1;
+	padding: 20px;
+	border-radius: 15px;
+}
+
+p {
+	background-color: #ecf0f1;
+	border-radius: 15px;
+	padding: 5px;
+}
+
+.btn {
+	border: none;
+	outline:none;
+	font-size: 1em;
+	background-color: transparent;
+	transition: transform .2s;
+}
+
+.btn:hover{
+	transform: scale(1.5);
+}
+
